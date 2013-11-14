@@ -1,0 +1,76 @@
+/*
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/* =Reset reset
+----------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =Structure
+----------------------------------------------- */
+
+body {
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+.post header p{
+	text-align: left
+}
+.link_more{
+	margin-left: 10px;
+	float: right
+}
+.post-comments{
+	margin-left: 10px;
+	float: right
+}
+/*----------*/
+/*	8.	Sidebar */
+/*----------*/
+
+	#sidebar {
+		margin-bottom: 20px;
+	}
+	#sidebar li  input, #sidebar li  textarea {
+		max-width: 240px;
+		_width: 220px;
+	}
+	#sidebar img {
+		max-width: 448px;
+	}
+	#sidebar .widget {
+		clear: both;
+		border: none;
+		border-left: 2px dotted #ddd;
+	}
+	.widget li {
+		padding: 10px 20px;
+	}
+	#sidebar .widget li {
+		border-bottom: 2px dotted #ddd;
+	}
+	#sidebar .widget li li {
+		border-bottom: none;
+	}
+	#sidebar .widget li li {
+		margin: 0;
+		background:none;
+		padding: 2px;
+		border-bottom: none;
+		margin-right: 15px;
+		list-style: disc
+	}
+
+	#searchform #searchsubmit {
+		margin: 0 0 0 10px;
+		float: right
+	}

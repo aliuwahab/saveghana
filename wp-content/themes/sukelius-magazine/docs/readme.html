@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>A guide to the Sukelius Magazine</title>
+
+<style type="text/css">body{width:750px;margin:36px auto 60px auto;font:16px/25px Georgia,Times,'Times New Roman',serif}a:link,a:visited{color:#2f6eb9;text-decoration:none}a:hover,a:active{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin:40px 0 30px 0;color:#000;font-weight:bold;font-family:Arial,sans-serif}h1{margin-top:80px;font-size:2.2em}code{padding:0 3px;background:#eee}pre code{padding:0}pre{padding:9px;background:#eee;border:1px solid #ccc}ul{list-style:square}p.first{font-size:21px}p.second{font-size:15px}ul.space li{margin-bottom:10px}.section{overflow:hidden}.columns-2{float:left;width:350px;margin:0 0 21px 25px}.columns-3{float:left;width:230px;margin:0 0 21px 20px}hr{border-color: #ccc;}</style>
+
+</head>
+<body>
+
+<h1>Sukelius Magazine 0.1.3</h1>
+<hr />
+<p class="first">This theme is a parent theme for WordPress.</p>
+
+<p class="second">This theme is a parent theme. All modification should be made via a child theme.</p>
+
+<h2>Features</h2>
+
+<p><em>Sukelius Magazine</em> is built from the rock-solid <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core theme framework">Hybrid Core</a> theme framework, so it provides a great starting point with many useful features.</p>
+
+<ul>
+	<li>Per-post layouts that allow you to quickly change the layout of your site.</li>
+	<li>Post setting that allows you to add a custom stylesheet for individual posts.</li>
+	<li>A smart breadcrumb system.</li>
+	<li>Built-in pagination.</li>
+	<li>Post thumbnails that work with WordPress' featured image functionality and provide extra features.</li>
+	<li>Multiple sidebars: Primary, Secondary, Subsidiary, Header and After Singular.</li>
+	<li>Dynamic global, post, and comment <acronym title="Cascading Style Sheets">CSS</acronym> classes.</li>
+	<li>Fully internationalized, so you can run the theme in any language.</li>
+	<li>Built-in WordPress menu system. There are two menus in the theme: Primary and Secondary. If custom menu's aren't applied to Theme Locations - menu's will not be displayed.</li>
+	<li>Context-aware action and filter hooks.</li>
+	<li>Some of the most-used filter hooks are shortcode-ready and have accompanying shortcodes.</li>
+	<li>Theme settings page (Appearance &raquo;&raquo; Theme Settings) that allows you to set default layout, enable / disable content slider, and set your social profiles.</li>
+	<li>Ability to create custom templates for any post type in multiple ways.</li>
+	<li>Highly-configurable widgets that give you full control over their display.</li>
+	<li>Widget areas are content-aware, meaning that they only appear if they contain active widgets.</li>
+	<li>Support for Post Formats.</li>
+	<li>Custom header background</li>
+	<li>Custom body background</li>
+	<li>And much, much more!</li>
+</ul>
+
+<h2>Child themes</h2>
+
+<p>Since <em>Sukelius Magazine</em> is a parent theme, you'll want to create a child theme if you plan on making any customizations.  <em>Don't know how to make a child theme?</em>  It's relatively simple.  Just follow the steps below, or download <a href="http://themehybrid.com/themes/sukelius-magazine-child">Sukelius Magazine Child Theme</a>.</p>
+
+<ul>
+	<li>Create a theme folder in your <code>/wp-content/themes</code> directory called <code>sukelius-magazine-child</code>.</li>
+	<li>Then, create a <code>style.css</code> file within your theme folder.</li>
+	<li>At the top of your <code>style.css</code> file, add the below information.</li>
+</ul>
+
+<pre><code>/**
+ * Theme Name: Sukelius Magazine Child
+ * Theme URI: http://link-to-your-site.com
+ * Description: Describe what your theme should be like.
+ * Version: 0.1
+ * Author: Your Name
+ * Author URI: http://link-to-your-site.com
+ * Tags: Add, Whatever, Tags, You, Want
+ * Template: sukelius-magazine
+ */</code></pre>
+
+<p>This will give you a blank design.  You'll probably want to import <em>Sukelius Magazine</em> parent theme style, so just add this to your new style.css:</p>
+
+<pre><code>@import url( '../sukelius-magazine/style.css' );
+
+/* Custom code goes below here. */</code></pre>
+
+<p>Note that child themes are now the officially-supported way of modifying themes in WordPress. See more about <a href="http://codex.wordpress.org/Child_Themes">Child Themes at the Codex</a>.</p>
+
+<h3>Functions.php</h3>
+
+<p>With child themes, it's not only about changing CSS. You can do far more then that, like adding and removing HTML, custom PHP functions, scripts etc... That's why there is <code>functions.php</code>.</p>
+
+<p><pre>
+add_action( 'after_setup_theme', 'sukelius_child_theme_setup', 11 );
+ 
+function sukelius_child_theme_setup() {
+
+	/* Get the theme prefix. */
+	$prefix = hybrid_get_prefix();
+	
+	/* All actions and filters go here. */ 
+
+}	
+</pre></p>
+
+<h4>Example</h4>
+
+<p><pre>
+add_action( 'after_setup_theme', 'sukelius_child_theme_setup', 11 );
+ 
+function sukelius_child_theme_setup() {
+
+	/* Get the theme prefix. */
+	$prefix = hybrid_get_prefix();
+	
+	add_action( "{$prefix}_header", 'add_html_to_header' );
+} 
+
+function add_html_to_header() {
+	echo 'This text is in header!';
+}
+</pre></p>
+
+<p>You might be asking yourself what's this <code>{$prefix}_header</code>?! That's the <code>hook</code>, a "place" in theme where your code will appear. Great thing is that this theme comes with hooks on every opened, and closed div, wherever possible. For example, open up header.php. Look for this:</p>
+
+<p><pre>&lt;?php do_atomic( 'open_body' ); // sukelius_open_body ?></pre></p>
+
+<p>This is the first hook in theme. If you want you can add custom text, or HTML to it, just replace <code>"{$prefix}_header"</code> with <code>"{$prefix}_open_body"</code> in the code given above.</p>
+
+<p>There is a lot's of hooks in theme, so just go ahead and open one of the files in theme (header.php, index.php, content.php, footer.php etc...) and see the names of the hooks. Then just add code you want.</p>
+
+<p>Just to be super clear, here's one more example.</p>
+
+<h4>Example 2</h4>
+
+<p><pre>
+add_action( 'after_setup_theme', 'sukelius_child_theme_setup', 11 );
+ 
+function sukelius_child_theme_setup() {
+
+	/* Get the theme prefix. */
+	$prefix = hybrid_get_prefix();
+	
+	add_action( "{$prefix}_after_footer", 'add_html_to_footer' );
+} 
+
+function add_html_to_footer() {
+	echo '&lt;div id="after-footer">This appears after the footer!&lt;/div&gt;';
+}
+</pre></p>
+
+<p><b>All actions <code>add_action</code> must be defined INSIDE <code>sukelius_child_theme_setup()</code> function, and all your callback functions (example: <code>add_html_to_footer()</code>)  are going OUTSIDE <code>sukelius_child_theme_setup()</code> function.</b></p>
+
+<h2>Notes</h2>
+
+
+<p>This theme has a very specific header design.  The site title, description, and Primary and Secondary nav menus have limited widths.  Because it's impossible to know everyone's title, description, and menu items, you'll have to configure these items based on your unique needs.  Some people may not be able to use as many menu items in the Primary nav menu as others because of the social icons.</p>
+
+<p>If you want custom header background image, that image will not replace site title, it will appear only as background-image and it won't be linked to your home page.</p>
+
+<p>If content slider enabled, custom body backround image (or color) will appear bellow slider. If you want to change slider background color, you'll need to use child theme.</p>
+
+<h2>Theme Settings - Appearance / Theme Settings</h2>
+
+<p><strong>General Settings</strong></p>
+
+<p>Sukelius Magazine comes with 6 predefined layouts, and you can set them individually for each post, or page in post editor. Here's the list:</p>
+
+<ul>
+	<li>One column (full width, no sidebars)</li>
+	<li>Two columns, left</li>
+	<li>Two columns, right</li>
+	<li>Three columns, left</li>
+	<li>Three columns, right</li>
+	<li>Three columns, center</li>
+</ul>
+
+<p>Second option is to enable / disable content slider. To add posts to content slider - just make them "sticky", and set featured image (940x385) for that post. After you upload image, select <b>sukelius-slider-image</b> under Sizes: in uploader. If image is bigger, theme will resize it. <br /><br /><b>Slider specific note:</b> <br />If you don't have featured image set for the sticky post - default slider image will appear. So, make sure you set featured image to avoid this.</p>
+
+<h3>Social Networks</h3>
+
+<p>Here you can set up few links to your social profiles (Facebook, Twitter, Pinterest, and RSS URL). Please include <b>http://</b> in all URL's, or it won't work as it should. If you don't wan't some icon to show in Primary menu, just delete URL from input field.</p>
+
+<h2>Footer settings</h2>
+
+<p>Change your footer text.</p>
+
+<h2>Credits:</h2>
+
+<ul>
+	<li><a href="http://themehybrid.com/hybrid-core" title="Hybrid Core">Hybrid Core</a> framework by <a href="http://justintadlock.com/" title="Justin Tadlock">Justin Tadlock</a></li>
+	<li><a href="http://www.google.com/webfonts#ChoosePlace:select" title="Google Font">Google Font Overlock</a>, which is licensed under <a href="http://scripts.sil.org/OFL" title="OFL">OFL</a></li>
+	<li><a href="http://nivo.dev7studios.com/" title="Nivo Slider">Nivo Slider</a>, which is licensed under the <a href="http://opensource.org/licenses/mit-license.php" title="MIT License">MIT</a> license</li>
+</ul>
+
+<h2>Theme support</h2>
+
+<p>Support for the <em>Sukelius Magazine</em> theme is not offered on the WordPress support forums.  There is a community called <a href="http://themehybrid.com" title="Theme Hybrid">Theme Hybrid</a> where support is offered for this theme. You are encouraged to sign up to the site to use its support forums and become a part of the community.</p>
+
+<h2>Copyright &amp; license</h2>
+
+<p><em>Sukelius Magazine</em> Wordpress theme is licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GNU GPL">GNU General Public License</a>, version 2 (<acronym title="GNU General Public License">GPL</acronym>). Theme is distributed under the terms of the GNU GPL.</p>
+
+<p>This theme is copyrighted to <a href="http://www.themesbros.com" title="Themes Bros">ThemesBros</a>.</p>
+
+<p>2011&thinsp;&ndash;&thinsp;2012 &copy; ThemesBros.com.</p>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* Admin Page Styles */
+
+/* WEB FONTS <?php echo ( $use_web_fonts ? '*/ ' : '' ); ?>
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url('font/DroidSans.woff') format('woff');
+}
+
+.bitlumen-wrap td {
+	vertical-align:text-top;
+}
+.bitlumen-wrap td input {
+	margin-right: 3px;
+}
+.clear {
+	clear: both;
+}
+.bitlumen-submit {
+	float: left;
+	clear: none;
+}
+.bitlumen-submit-div {
+	clear: none;
+	float: left;
+	margin-right: 1em;
+}
+.bitlumen-wrap h3 {
+	margin-top: 3em;
+}
+.bitlumen-wrap .description {
+	clear: both;
+}
+#fake-masthead {
+	margin: 0;
+	padding: 0 0 2px 0;
+}
+#fake-masthead h1#site-title {
+	float: left;
+	font-size: 38px;
+	line-height: 44px;
+	margin: 10px 4px 0 6px;
+}
+#fake-masthead h2#site-description {
+	float: left;
+	font-size: 14px;
+	line-height: 16px;
+	clear: both;
+	margin: 0 4px 0 6px;
+}
+#fake-masthead h1#site-title,
+#fake-masthead h2#site-description {
+	font-weight: 400;
+	text-shadow: none;
+	padding: 0;
+}
+.clear {
+	height: 1px;
+	width: 100%;
+	visibility: hidden;
+	clear: both;
+}
+#fake-masthead .assistive-text,
+#fake-masthead .display-none {
+	display: none;
+}

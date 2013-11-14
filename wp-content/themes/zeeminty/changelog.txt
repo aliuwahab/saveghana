@@ -1,0 +1,13 @@
+===================================
+zeeMinty Changelog
+===================================
+
+Version 1.0.1
+-----------------------------------
+[fixed] sidebar overflow of long words
+[fixed] copyright and license information in readme.txt
+[fixed] frontpage widgets on devices with smaller screens
+
+Version 1.0
+-----------------------------------
+Final Version

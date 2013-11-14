@@ -1,0 +1,1018 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-27 11:54+0100\n"
+"PO-Revision-Date: 2012-06-27 11:54+0100\n"
+"Last-Translator: Tomasz Mazur <tommek77@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: F:\\WWW\\wordpress\\wp-content\\themes\\sketchbook\n"
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/404.php:6
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/404.php:8
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:7
+#, php-format
+msgid "<h1>Category Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:8
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:11
+#, php-format
+msgid "<p>%s</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:10
+#, php-format
+msgid "<h1>Tag Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:13
+#, php-format
+msgid "<h1>Daily Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:15
+#, php-format
+msgid "<h1>Monthly Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:17
+#, php-format
+msgid "<h1>Yearly Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:19
+msgid "<h1>Gallery</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:21
+msgid "<h1>Link</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:23
+msgid "<h1>Aside</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:25
+msgid "<h1>Quote</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:27
+msgid "<h1>Video</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:29
+msgid "<h1>Images</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/archive.php:31
+msgid "<h1>Blog Archives</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:9
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:10
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:77
+msgid "<li>Title : "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:79
+#, php-format
+msgid "<li><span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:82
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:82
+msgid "Link to full-size image"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:88
+msgid "<li>Caption: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:90
+msgid "<li>Camera: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:92
+msgid "<li>Aperture: f/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:94
+msgid "<li>Copyright: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:96
+msgid "<li>Credit: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:98
+msgid "<li>Focal Length: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:100
+msgid "<li>ISO: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:102
+msgid "<li>Shutter Speed: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/attachment.php:106
+msgid "Edit"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/author.php:8
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/comments.php:9
+#, php-format
+msgid "Response to <strong>%1$s</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/comments.php:29
+msgid "Comments are closed"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/content-gallery.php:9
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-aside.php:6
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/content-gallery.php:11
+msgid "Pages:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/content-image.php:33
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/content-link.php:15
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/content-quote.php:17
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/content.php:16
+msgid "<em>Pages</em>:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:35
+msgid "Primary Navigation"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:50
+msgid "Widget in the header of the page"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:52
+msgid "Widget is on the right of the title. The maximal width 540px."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:60
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:70
+msgid "Widget is in the side panel"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:62
+msgid "The activation will cause the overwriting of the web search."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:72
+msgid "The activation will cause the overwriting of the category list."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:80
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:90
+msgid "Widget in the footer"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:82
+msgid " Widget is in the left part of the footer."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:92
+msgid "Widget  in the right part of the footer."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:100
+msgid "Widget in the inside of the post"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:102
+msgid "Widget is between some articles and comments."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:110
+msgid "Widget in the side panel on the page"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:112
+msgid "If you want to have a different content on the static page than on the side panel , activate the widget."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:221
+#, php-format
+msgid "<p><em>Posted on</em> %4$s <em>by</em> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span></p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:236
+#, php-format
+msgid ""
+"<p><a class=\"link_more\" href=\"%8$s\" title=\"%9$s\" rel=\"bookmark\"> \n"
+"    &infin;</a><em>Posted</em> on %4$s <em>by</em> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s </a></span></p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:247
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:254
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:255
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:430
+msgid ", "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:257
+#, php-format
+msgid "<em>This</em> <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</a> <em>was posted in</em> %1$s <em>and tagged</em> %2$s."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:259
+#, php-format
+msgid "<em>This</em>  <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</a> <em>was posted in</em> %1$s."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:261
+#, php-format
+msgid "<em>This</em> <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">entry</a> <em>was posted by</em> <a href=\"%6$s\">%5$s</a>."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:274
+msgid "Headers 1"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:279
+msgid "Headers 2"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:426
+msgid "<p id=\"breadcrumbs\">You Are Here: Home</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:429
+#, php-format
+msgid "<p id=\"breadcrumbs\">You Are Here: <a href=\"%1$s\" title=\"Home\">Home </a> &raquo; %2$s &raquo; %3$s</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:433
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:437
+#, php-format
+msgid "<p id=\"breadcrumbs\">You Are Here: <a href=\"%1$s\" title=\"Home\">Home </a> &raquo; %2$s</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:441
+#, php-format
+msgid "<p id=\"breadcrumbs\">You Are Here: <a href=\"%1$s\" title=\"Home\">Home </a></p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:462
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:462
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:465
+msgid "http://blankcanvas.eu/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:498
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:499
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:522
+msgid "(Edit)"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:500
+#, php-format
+msgid "<em>%s <span class=\"says\">says:</span></em>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:507
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/functions.php:522
+msgid "Pingback:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-aside.php:3
+msgid "Aside"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-gallery.php:4
+msgid "Gallery"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-gallery.php:8
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-image.php:27
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop.php:9
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/page.php:27
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/template-sidebar-page.php:32
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/template_sidebar_full.php:32
+msgid "Edit This"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-image.php:23
+msgid "Image"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-link.php:3
+msgid "Link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-link.php:3
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:214
+msgid "Links"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-quote.php:3
+msgid "Quote"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-quote.php:3
+msgid "Quotes"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/loop-video.php:3
+msgid "Video"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:51
+msgid "Primary settings"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:54
+msgid "Custom Logo"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:55
+msgid "If you want to add a logo instead of the text in the Web title, you should add it by uploader and then you should place url address of the picture into the next text file. The width of the picture should not be more than 380px, a lucent file .PNG. is recommended."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:59
+msgid "Custom Favicon"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:60
+msgid ""
+"If you want to add \"Favicon\" (a picture which is in breadcrumb bar browser), you can use the website which was resulted from the picture. <strong>http://www.genfavicon.com/</strong> \n"
+"\t\t\t\t\t\t<strong>http://www.degraeve.com/favicon</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:65
+msgid "Custom Avatar"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:66
+msgid "If you want to change a default avatar into your own, add the picture (max100x100px), then go into Settings>Discussion and activate it."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:70
+msgid "Featured posts slider"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:71
+msgid "Enable homepage featured posts slider."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:75
+msgid "Select a category"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:76
+msgid "Choose the category which must be displayed as an order."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:83
+msgid "Choose the effect (Slide, Fade)"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:91
+msgid "Slider autorotation"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:92
+msgid "Autorotation on"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:99
+msgid "Layout"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:102
+msgid "Breadcrumb"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:103
+msgid "Disable \"Breadcrumb\"."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:107
+msgid "Choose the background for  the main navigation"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:120
+msgid "Sidebar position"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:131
+msgid "Choose the background for the side panel"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:145
+msgid "Choose the background for the container of the web"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:156
+msgid "Widgets in the Footer"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:168
+msgid "Content settings"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:171
+msgid "Social media icon"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:172
+msgid "By choosing this option, you add the icon of social media next to the content of the entry (Google Plus, Twitter, Stumbleupon, Pinterest). If you need to add more \"Sexy bookmarks\" plug in is recommended."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:176
+msgid "Display the icon of the entry on the web article"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:177
+msgid "By choosing this option you will add  an entry icon inside the post."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:181
+msgid "Comment settings"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:182
+msgid "Choose the style for  link comments, for example \"1 Comment\"."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:186
+msgid "Display the information about the author"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:187
+msgid "By choosing this option you will display the information about the author of the article on the entry page ( to display the data you must fill in the author profile )"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:191
+msgid "An Entry icon link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:192
+msgid "Choose the place for the entry icon link."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:198
+msgid "Disable \"Lightbox\""
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:199
+msgid "By choosing this option you will on the effects in gallery and single photos."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:203
+msgid "Post formats background"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:204
+msgid "Change the colour of the background in the post formats."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:211
+msgid "Colors and Fonts"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:215
+msgid "Change the colour of the links."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:220
+msgid "Headers"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:221
+msgid "Change the colour of the headers (h1, h2, h3, h4, h5, h6)."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:226
+msgid "Footer"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:227
+msgid "Change the colour of the background in the footer."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:232
+msgid "Choose the type of the front for the text"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:233
+msgid "The default font is \"Georgia - 14px, black\". *<em>Helvetica is available Only for Mac computer</em>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:238
+msgid "Choose the kind of the front for the header"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:239
+msgid "The default font for the headers is \"Georgia\" this option allow you to change into font sans-serif \"Arial\"."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:245
+msgid "Google Fonts"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:246
+msgid "If you want to use  non-standard front in the page header, activate the options. In case of other languages before the using of the fonts you should check if the diacritical marks of the language are displayed."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:251
+msgid "Fonts"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/options.php:252
+msgid " All the fonts are from the Google Fonts site."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/search.php:5
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/search.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/search.php:19
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/sidebar.php:28
+msgid "Categories"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/template-page-archive.php:31
+msgid "Archives by Month"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/template-page-archive.php:39
+msgid "Archives by Subject"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/template-page-archive.php:45
+msgid "Our latest 50 Posts"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-framework.php:171
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-framework.php:370
+msgid "Theme Options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-framework.php:241
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-framework.php:273
+msgid "Default options restored."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-framework.php:314
+msgid "Options saved."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-medialibrary-uploader.php:129
+msgid "Upload"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-medialibrary-uploader.php:152
+msgid "View File"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-medialibrary-uploader.php:289
+msgid "Previously Uploaded"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:344
+msgid "Normal"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:345
+msgid "Italic"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:346
+msgid "Bold"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/admin/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:83
+msgid "Share"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:117
+msgid "Social media"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:120
+msgid "Twitter URL"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:126
+msgid "Facebook URL"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:132
+msgid "Google plus URL"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:159
+#, php-format
+msgid "<li><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:160
+msgid "Website"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:164
+#, php-format
+msgid "<li id=\"sketchbook_t\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:165
+msgid "Twitter Profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:169
+#, php-format
+msgid "<li id=\"sketchbook_f\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:170
+msgid "Facebook Proflie"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:174
+#, php-format
+msgid "<li id=\"sketchbook_g\"><a href=\"%1$s\" title=\"%2$s\">%2$s</a></li>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:175
+msgid "Google Plus Profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:185
+#, php-format
+msgid "View all posts by %s &rarr;"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:202
+msgid "0 Comment"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:202
+msgid "1 Comment"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:202
+msgid "% Comments"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:212
+msgid "0"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:212
+msgid "1"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:212
+msgid "% "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:328
+msgid "Sketchbook documentation "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:334
+msgid " en"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:340
+msgid " pl"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-functions.php:352
+msgid "Widget  in the center part of the footer."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:25
+msgid "Post formats options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:33
+msgid "Post format - Link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:36
+msgid "Paste link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:42
+msgid "Post format - Quote - Author"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:45
+msgid "If you choose the format of the post - quotation - and you want to add the author you must write his name."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:51
+msgid "Post format - Quote - Link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:54
+msgid "Past the link into the source of quotation. The author of the quotation will be the link to the source, to make the link available fill in \\\"the Author quotation\\\" field."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:60
+msgid "Post Format - Gallery"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:64
+msgid "You can use the two kinds of presentation of the gallery on the main page and in the archive. The first display the pictures in the thumbnail form, the second display the single pictures (featured image or the first  picture which was added to gallery ). After entering the entry page Gallery is presented in the same way regardless of the settings."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:66
+msgid "Display the whole gallery in the thumbnail form"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:67
+msgid "Single pictures from the gallery"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:74
+msgid "Post format - Video"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/sketchbook-post-options.php:77
+msgid "If you choose the video post format, you must be sure that you insert the option in Settings>Media> When possible, embed the media content from a URL directly onto the page. For example: links to Flickr and YouTube. Then past the link to the website of the film in the field above e.g. http://vimeo.com/33420937, the same link past in the visual editor field and. The list of the services from which you can add films are at the following address http://codex.wordpress.org/Embeds"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:6
+msgid "Flickr gallery"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:51
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:131
+msgid "Title:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:55
+#, php-format
+msgid "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:55
+msgid "http://idgettr.com/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:60
+msgid "Number of photo to display:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:79
+msgid "A widget to enable people to follow you on Twitter"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:124
+msgid "follow me on Twitter"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:135
+msgid "User:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:140
+msgid "Text:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:145
+msgid "Number of Tweets to display:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:163
+msgid "User profiles"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:164
+msgid "Sketchbook - Social Media Profiles"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:185
+msgid "Syndicate this site using RSS"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:185
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:186
+msgid "Facebook profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:187
+msgid "Google Plus profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:188
+msgid "Twitter profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:189
+msgid "YouTube profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:190
+msgid "LastFm profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:191
+msgid "DevianArt profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:192
+msgid "Behance profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:193
+msgid "Linkedin profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:194
+msgid "Dribbble profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:233
+msgid "Title"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:236
+msgid ""
+"Enter feed url,\n"
+"e.g. http://feedburner.com/userid"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:241
+msgid "Enter <strong>Facebook</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:245
+msgid "Enter <strong>Google Plus</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:249
+msgid "Enter <strong>Twitter</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:254
+msgid "Enter <strong>YouTube</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:259
+msgid "Enter <strong>LastFM</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:265
+msgid "Enter <strong>DeviantArt</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:270
+msgid "Enter <strong>Behance</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:275
+msgid "Enter <strong>Linkedin</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\sketchbook/inc/widgets.php:280
+msgid "Enter <strong>Dribbble</strong>  account url"
+msgstr ""
+

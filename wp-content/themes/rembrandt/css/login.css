@@ -1,0 +1,56 @@
+body.login {
+background: #fbfbfb url('../images/bg-login.jpg');
+}
+#login h1 a{
+    background: #fbfbfb url('../images/front.jpg');
+}
+#login {
+padding: 30px 0 0;
+}
+.login form {
+margin-left: auto;
+margin-right: auto;
+padding: 30px;
+border: 1px solid rgba(0,0,0,.2);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background: rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 0 3px #996633;
+-webkit-box-shadow: 0 0 3px  #996633;
+box-shadow: 0 0 3px  #996633;
+overflow: hidden;
+}
+.login form input {
+
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+display: block;
+}
+
+.login form input:focus,
+.login form textarea:focus {
+background-color: rgba(255, 255, 255, 0.8);
+-moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+-webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+overflow: hidden;
+}
+.login label {
+color: #fff;
+line-height: 26px;
+}
+
+.login form .input,
+.login input[type="text"] { color: #8c8a8a }
+input#rememberme {
+height: 18px;
+width: 18px;
+display: inline;
+vertical-align: middle;
+margin: 5px 0;
+}

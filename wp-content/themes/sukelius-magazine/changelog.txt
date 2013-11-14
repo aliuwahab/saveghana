@@ -1,0 +1,18 @@
+13.03.2013 - version 0.1.5
+
+- Fixed featured images widths on different layouts
+- Added French translation
+- Minor CSS changes
+
+2.2.2013 - version 0.1.3
+
+- Fixed long titles & taglines
+- Fixed nested comments 
+- Fixed slider bug on static page
+- Updated to Hybrid Core 1.5.2
+- Support for chat post format
+- Support for flex header 
+- Design improvements: comments, captions, inputs, page links 
+- Readme.html updated 
+- .po file updated
+- Screenshot

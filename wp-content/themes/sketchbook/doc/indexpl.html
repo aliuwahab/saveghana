@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Sketchbook Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box {
+			margin-bottom: 25px;
+		}
+		.box p {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h3 class="center alt">&ldquo;Sketchbook&rdquo; Dokumentacja v1.0</h3>
+		<hr>
+		<h1 class="center">&ldquo;Sketchbook&rdquo;</h1>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong> Utworzony: 28/03/2012
+					<br>
+					przez: Tomasz Mazur
+				</p>
+			</div><!-- end div .span-6 -->
+		
+		</div><!-- end div .borderTop -->
+		<hr>
+		<h2 id="toc" class="alt">Spis treści</h2>
+		<ol class="alpha">
+			<li>
+				<a href="#instal">Instalacja</a>
+			</li>
+			<li>
+				<a href="#video">Dokumentacja filmowa</a>
+				<ul>
+					<li>
+						<a href="#s_i">Sketchbook - wstęp</a>
+					</li>
+					<li>
+						<a href="#s_to">Opcje motywu</a>
+					</li>
+					<li>
+						<a href="#s_sc">Shortcode i klasy </a>
+					</li>
+					<li>
+						<a href="#s_l">Post Format - odnośnik, cytat, notatka</a>
+					</li>
+					<li>
+						<a href="#s_v">Post Format - filmy</a>
+					</li>
+					<li>
+						<a href="#s_ig">Post Format - obraz i galeria</a>
+					</li>
+					<li>
+						<a href="#s_wi">Widgety</a>
+					</li>
+					<li>
+						<a href="#s_header">Obrazy dla tła i nagłówka</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#htmlStructure">Struktura HTML</a>
+			</li>
+			<li>
+				<a href="#cssphp">Opis kodu PHP</a>
+			</li>
+			<li>
+				<a href="#cssFiles">Pliki CSS</a>
+			</li>
+			<li>
+				<a href="#javascript">JavaScript</a>
+			</li>
+			<li>
+				<a href="#psdFiles">Pliki PSD</a>
+			</li>
+			<li>
+				<a href="#credits">Sources and Credits</a>
+			</li>
+		</ol>
+		<hr>
+		<p>Jeżeli masz jakieś pytania to pisz na adres e-mail lub zostaw komentarz na stronie <a href="http://blankcanvas.eu" >blankcanvas.eu</a></p>
+				<p>
+			Aby zainstalowac ten motym musisz mieć działającą wersję Wordpress najlepiej w najnowszej wersji. Informacje na temat instalacji systemu możesz znaleźć na  WordPress Codex - <a href="http://codex.wordpress.org/Installing_WordPress" >http://codex.wordpress.org/Installing_WordPress</a>
+		</p>
+		<hr>
+		<h3 id="instal"><strong>A) Instalacja</strong> - <a href="#toc">top</a></h3>
+		<p>Gdy masz juz gotową instalację i chcesz dodać motyw, najpierw musisz go załadować a następnie aktywować. Można to zrobić na dwa sposoby:</p>
+
+			<ul>
+				<li>FTP: skopiuj programem ftp (np FileZilla) nieskompresowany katalog z motywem do folderu /wp-content/themes/ na twoim serwerze.
+				</li>
+				<li>
+					Panel WordPress: Przejdź do  Appearance > Add New Themes > Upload. Przejdź do przzeglądaj i wybierz skompresowany folder z motywem. wybierz "Install Now" i motyw zostanie zainstalowany. 
+				</li>
+			</ul>
+			<p>Po przesłaniu motywu trzeba go aktywować, przejdź do Appearance > Themes i aktywuj szablon.
+		</p>
+		<hr>
+		<h3 id="video"><strong>B) Dokumentacja filmowa</strong> - <a href="#toc">top</a></h3>
+		<h4 id="s_i">Sketchbook - wstęp - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/35839162?title=0&amp;byline=0&amp;portrait=0" width="700" height="538" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h4 id="s_to">Sketchbook - opcje motywu - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/36496072" width="700" height="525" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h4 id="s_sc">Sketchbook - shortcode i klasy - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/36611255" width="700" height="525" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h4 id="s_l">Post Format - odnośnik, cytat, notatka - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/35912940?title=0&amp;byline=0&amp;portrait=0" width="700" height="534" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h4 id="s_v">Post Format - video - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/35910230?title=0&amp;byline=0&amp;portrait=0" width="700" height="534" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h4 id="s_ig">Post Format - obraz i galeria - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/35958461?title=0&amp;byline=0&amp;portrait=0" width="700" height="534" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h4 id="s_wi">Widgety - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/35977909?title=0&amp;byline=0&amp;portrait=0" width="700" height="534" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h4 id="s_header">Obrazy dla tła i nagłówka - <a href="#toc">top</a></h4>
+		<iframe src="http://player.vimeo.com/video/36273003?title=0&amp;byline=0&amp;portrait=0" width="700" height="525" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h3 id="htmlStructure"><strong>C) Struktura HTML</strong> - <a href="#toc">top</a></h3>
+		<p>Ten motyw jest stałej szerokości, i zawiera dwie kolumny. Cała treść zawarta jest w kolumnie oznaczonej klasą "grid_11", sidebar (druga kolumna) oznaczony jest klasą "grid_5". Struktura  jest jednakowa w całym motywie i przedstawia się następująco:
+		</p>
+		<img src="assets/images/index.jpg" alt="HTML Structure" />
+		<hr>
+		<h3 id="cssphp"><strong>D) Opis kodu PHP</strong> - <a href="#toc">top</a></h3>
+		<p>
+Oprócz standardowych plików szablonu, w motywie znajdują się również pliki odpowiadające za konfigurację oraz niestandardowe funkcje rozszerzające możliwości szablonu. Poniżej krótkie omówienie: 
+		</p>
+		<ul>
+			<li>folder /admin - pliki odpowiadające za opcje motywu  - <a href="http://wptheming.com/options-framework-theme/">Options Framework - 0.8</a> przez Devin Price,
+			</li>
+			<li>
+				options.php -  plik odpowiadający za konfiguracje opcji motywu,
+			</li>
+			<li>
+				folder /doc - dukumentacja,
+			</li>
+			<li>
+				folder /inc - pliki z niestandardowymi funkcjami, 
+				<ul>
+					<li>
+						post-options-api.1.0.1.php - opcje wpisu - <a href="http://theme.fm">Post Options API 1.0.1</a> przez Konstantin Kovshenin,
+					</li>
+					<li>
+						sketchbook-post-options.php -  funkcje odpowiadające ze wdrożenie ustawien z "Post Options" ,
+					</li>
+					<li>
+						shortcode.php - shortcode i klasy,
+					</li>
+					<li>
+						sketchbook-functions.php - funkcje odpowiadające ze wdrożenie ustawień z "Options Framework",
+					</li>
+					<li>
+						widgets.php - widgety,
+					</li>
+				</ul>
+			<li>
+				folder /js - pliki javascript  (html 5, jquery fancybox, jquery flexslider, adapt).
+			</li>
+			</li>
+		</ul>
+		<hr>
+		<h3 id="cssFiles"><strong>E) Pliki CSS</strong> - <a href="#toc">top</a></h3>
+		<p>Motyw został zbudowany na szablonie css 960 Grid System. Całkowita szerokość wynosi 960px. Aby uzyskać więcej informacji o sposobie działania siatki przejdź do strony <a href="http://960.gs/">960 Grid System website</a>.
+		</p>
+		<ul>
+			<li>
+				folder /css - wersja do druku, grid 960px, wersja mobilna, style edytora, wtyczki (lightbox, slideshow),
+			</li>
+			<li>
+				rtl.css - wersja z wyrównaniem do prawej (j. arabskie),
+			</li>
+			<li>
+				style.css - główny plik ze stylami.
+			</li>
+		</ul>
+		<hr>
+		<h3 id="javascript"><strong>F) JavaScript</strong> - <a href="#toc">top</a></h3>
+		<p>
+			Motyw zawiera cztery pliki javascript.
+		</p>
+		<ol>
+			<li>
+				html5.js,
+			</li>
+			<li>
+				adapt.min.js,
+			</li>
+			<li>
+				jquery.fancybox,
+			</li>
+			<li>
+				jquery.flexslider-min.js.
+			</li>
+						<li>
+				superfish.js
+			</li>
+		</ol>
+		<hr>
+		<h3 id="credits"><strong>H) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li>
+				<a href="http://remysharp.com/2009/01/07/html5-enabling-script/">html5.js</a> by Remy Sharp,
+			</li>
+			<li>
+				<a href="http://fancybox.net">FancyBox - jQuery Plugin</a> by Janis Skarnelis,
+			</li>
+			<li>
+				<a href="http://flex.madebymufffin.com">jQuery FlexSlider v1.8</a> by Tyler Smith,
+			</li>
+			<li>
+				<a href="http://960.gs/">960 Grid System ~ Core CSS</a> by Nathan Smith,
+			</li>
+			<li>
+				<a href="http://adapt.960.gs/">Adapt ~ Mobile script</a> by Nathan Smith,
+			</li>
+			<li>
+				<a href="http://wptheming.com/options-framework-theme/">Options Framework - 0.8</a> by Devin Price,
+			</li>
+			<li>
+				<a href="http://theme.fm">Post Options API 1.0.1</a> by Konstantin Kovshenin,
+			</li>
+						<li>
+				<a href="http://users.tpg.com.au/j_birch/plugins/superfish/">Superfish v1.4.8 - jQuery menu widget </a>  by Joel Birch
+			</li>
+		</ul>
+		<hr>
+		<p>
+			<a href="#toc">Wróć do spisu treści</a>
+		</p>
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
